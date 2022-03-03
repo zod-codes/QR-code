@@ -1,0 +1,33 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.outbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(214, 210, 210);
+    width: 230px;
+    height: 350px;
+    border-radius: 20px;
+}
+    .outbox img{
+        width: 200px;
+        position: relative;
+        bottom: 60px;
+        border-radius: 20px;
+}
+.text{
+    text-align: center;
+    display: inline;    
+}
+.text h2{
+    font-size: 15px;
+    position: relative;
+}
